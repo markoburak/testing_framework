@@ -1,0 +1,10 @@
+{
+  "general": {
+      "url": "https://markoburakpy.pythonanywhere.com/",
+      "browser": "chrome"
+  },
+  "creds": {
+    "username": "burakmarko@gmail.com",
+    "password": "12345678"
+  }
+}
