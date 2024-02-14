@@ -35,7 +35,7 @@ class TestUserDetails:
         time.sleep(0.5)
 
         loginPage = LoginPage(driver)
-        loginPage.login(config["creds"]["username"], config["creds"]["password"])
+        loginPage.login("burakmarko@gmail.com", "12345678")
 
         main_page = MainPage(driver)
         main_page.nav_open_user_details()

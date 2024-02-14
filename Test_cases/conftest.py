@@ -55,7 +55,7 @@ def setup_and_teardown_with_login(request):
     time.sleep(0.5)
 
     loginPage = LoginPage(driver)
-    loginPage.login(config["creds"]["username"], config["creds"]["password"])
+    loginPage.login("burakmarko@gmail.com", "12345678")
     yield
     driver.quit()
 

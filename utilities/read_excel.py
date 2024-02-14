@@ -1,6 +1,4 @@
 import openpyxl
-
-
 def get_data_from_excel(path: str, sheet_name: str) -> list:
 
     final_data = []
